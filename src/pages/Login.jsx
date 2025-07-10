@@ -50,7 +50,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "http://localhost:3003"; // dashboard project
+          window.location.href = "https://686f813792ae164ed7faffc0--tradingplatformdashboard.netlify.app"; // dashboard project
         }, 1000);
       } else {
         handleError(message);
