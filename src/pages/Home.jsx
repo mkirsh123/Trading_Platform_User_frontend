@@ -14,7 +14,7 @@ const Home = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "http://localhost:4000",
+        "https://github.com/mkirsh123/Trading_Platform_User_Backend",
         {},
         { withCredentials: true }
       );
