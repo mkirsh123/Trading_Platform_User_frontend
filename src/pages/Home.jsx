@@ -14,7 +14,7 @@ const Home = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "https://github.com/mkirsh123/Trading_Platform_User_Backend",
+        "https://trading-platform-user-backend.onrender.com",
         {},
         { withCredentials: true }
       );
