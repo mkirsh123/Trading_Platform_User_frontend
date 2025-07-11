@@ -37,7 +37,7 @@ const Signup = () => {
     if (!email || !username || !password) {
       return handleError("All fields are required!");
     }
-
+    console.log("API URL:", `${process.env.REACT_APP_API_URL}/signup`);
     try {
       const { data } = await axios.post(
         `${process.env.REACT_APP_API_URL}/signup`,
