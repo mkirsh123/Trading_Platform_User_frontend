@@ -50,7 +50,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "https://686f813792ae164ed7faffc0--tradingplatformdashboard.netlify.app"; // dashboard project
+          window.location.href = "tradingplatformdashboard.netlify.app"; // dashboard project
         }, 1000);
       } else {
         handleError(message);
