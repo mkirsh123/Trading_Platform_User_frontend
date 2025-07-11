@@ -49,7 +49,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "tradingplatformdashboard.netlify.app"; // dashboard project
+          window.location.href = "https://tradingplatformdashboard.netlify.app"; // dashboard project
         }, 1000);
       } else {
         handleError(message);
