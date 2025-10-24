@@ -50,7 +50,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "https://client-jwt-authentication.netlify.app/login"; // dashboard project
+          window.location.href = "https://courageous-tanuki-f990a5.netlify.app/login"; // dashboard project
         }, 1000);
       } else {
         handleError(message);
@@ -117,5 +117,6 @@ const Signup = () => {
 };
 
 export default Signup;
+
 
 
